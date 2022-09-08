@@ -1,0 +1,127 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 34em) {
+  .header {
+    padding: 0 2rem;
+  }
+
+  .logo {
+    height: 2rem;
+  }
+
+  .nav-list {
+    gap: 3rem;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  /* SECTION HERO */
+  .section-hero {
+    padding: 0 2rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .section-hero h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .section-hero p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .input-container {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    padding: 1.5rem;
+  }
+
+  .hero-img-box {
+    justify-self: center;
+    grid-row: 1 / 2;
+  }
+
+  .hero-img {
+    height: 20rem;
+  }
+
+  /* SECTION HOW */
+  .section-how {
+    padding: 2.5rem 2rem 2rem 2rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .how-text-box h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .how-links {
+    width: 12rem;
+  }
+
+  .how-link {
+    font-size: 1rem;
+  }
+
+  .how-text {
+    font-size: 1.4rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card > p {
+    font-size: 1rem;
+  }
+
+  .how-img-box {
+    justify-self: center;
+    grid-row: 1/2;
+  }
+
+  .how-img {
+    height: 18rem;
+  }
+
+  /* SECTION ACCESS */
+  .section-access {
+    padding: 2rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+
+  .access-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .access-text p {
+    font-size: 1.4rem;
+  }
+
+  .acc-text,
+  .acc-btn {
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 5rem 2rem 5rem 2rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+}
